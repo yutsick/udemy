@@ -2,4 +2,15 @@
 
 let numberOfFilms = +prompt("How much films do you watch already?", "");
 
-console.log (numberOfFilms);
+const personaMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+
+};
+
+
+console.log(typeof(personaMovieDB));
+console.log(personaMovieDB);
