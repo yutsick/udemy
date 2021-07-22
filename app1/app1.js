@@ -1,6 +1,6 @@
 "use strict";
 
-let numberOfFilms = +prompt("How much films do you watch already?", "");
+const numberOfFilms = +prompt("How much films do you watch already?", "");
 
 const personaMovieDB = {
     count: numberOfFilms,
@@ -8,9 +8,14 @@ const personaMovieDB = {
     actors: {},
     genres: [],
     privat: false
-
 };
 
+const a = prompt ("One of the last film you've seen",""),
+      b = prompt("What is your ratig for it?",0),
+      c = prompt ("One of the last film you've seen",""),
+      d = prompt ("One of the last film you've seen","");
 
-console.log(typeof(personaMovieDB));
-console.log(personaMovieDB);
+personaMovieDB.movies[a] = b;
+personaMovieDB.movies[c] = d;
+
+console.log(personaMovieDB['movies']);
