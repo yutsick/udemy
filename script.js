@@ -7,19 +7,19 @@ number = 10;
 console.log(number);
 
 const obj = {
-    a:50
+    a: 50
 };
 
 obj.a = 20;
-console.log (obj);
+console.log(obj);
 
 /* типи даних */
 
-number  = 4.6;
-console.log (-4/0);
-console.log ('string' * 9);
+number = 4.6;
+console.log(-4 / 0);
+console.log('string' * 9);
 
-const person = 'Alex'; 
+const person = 'Alex';
 
 const bool = true;
 
@@ -27,7 +27,7 @@ const bool = true;
 
 let und;
 console.log(und);
- 
+
 const man = {
     name: "John",
     age: 25,
@@ -37,7 +37,7 @@ const man = {
 //console.log(man.name);
 console.log(man['name']);
 
-let arr = ['plumb.png','orange.jpg', 6, 'apple.bmp', {}, []];
+let arr = ['plumb.png', 'orange.jpg', 6, 'apple.bmp', {}, []];
 console.log(arr[5]);
 
 
@@ -52,8 +52,9 @@ console.log(arr[5]);
 
 const answers = [];
 
-answers[0] = prompt ("What is your name?", "");
-answers[1] = prompt ("What is your lastname?", "");
-answers[2] = prompt ("How old are you?", "");
+answers[0] = prompt("What is your name?", "");
+answers[1] = prompt("What is your lastname?", "");
+answers[2] = prompt("How old are you?", "");
 
-console.log(typeof(answers));
+console.log(typeof (answers));
+console.log(answers[0]);
